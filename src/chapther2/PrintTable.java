@@ -1,3 +1,5 @@
+package chapther2;
+
 public class PrintTable {
     /*
     * (Print a table) Write a program that displays the following table. Cast floating-

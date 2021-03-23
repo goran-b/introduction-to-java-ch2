@@ -1,3 +1,5 @@
+package chapther2;
+
 import java.util.Scanner;
 
 public class CostOfDriving {
