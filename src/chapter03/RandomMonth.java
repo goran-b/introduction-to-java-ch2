@@ -1,6 +1,4 @@
-package chapther3;
-
-import java.util.Scanner;
+package chapter03;
 
 public class RandomMonth {
     /*3.4 (Random month) Write a program that randomly generates an integer between 1

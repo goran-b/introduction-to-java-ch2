@@ -1,4 +1,4 @@
-package chapther5;
+package chapter05;
 
 public class HeadOrTail {
     /* 4.40 (Simulation: heads or tails) Write a program that simulates flipping a coin one

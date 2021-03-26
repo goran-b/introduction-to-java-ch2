@@ -1,4 +1,4 @@
-package chapther3;
+package chapter03;
 
 import java.util.Scanner;
 
@@ -12,11 +12,11 @@ public class Operators {
         System.out.println("Enter an integer: ");
         int input = scanner.nextInt();
 
-        boolean condition1= (input % 5 == 0 && input % 6 == 0) ? true : false;
+        boolean condition1= input % 5 == 0 && input % 6 == 0;
         System.out.println("Is " + input + " divisible by 5 and 6? "+condition1);
-        boolean condition2= (input % 5 == 0 || input % 6 == 0) ? true : false;
+        boolean condition2= input % 5 == 0 || input % 6 == 0;
         System.out.println("Is " + input + " divisible by 5 or 6? "+condition2);
-        boolean condition3= (input % 5 == 0 ^ input % 6 == 0) ? true : false;
+        boolean condition3= input % 5 == 0 ^ input % 6 == 0;
         System.out.println("Is " + input + " divisible by 5 or 6, but not both? "+condition3);
     }
 }
